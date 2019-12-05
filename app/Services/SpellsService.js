@@ -21,9 +21,9 @@ class SpellsService {
   }
 
   async selectSpellAsync(id) {
-    try {
+    let res = _spellsApi.get(id)
+    let results = res.data
 
-    }
   }
 }
 
