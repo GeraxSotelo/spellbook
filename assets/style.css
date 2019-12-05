@@ -1,0 +1,18 @@
+main {
+  min-height: 75vh;
+}
+
+#spells {
+  height: 35em;
+  overflow: scroll;
+}
+
+@media only screen and (max-width: 767px) {
+  #spells {
+    height: 23em;
+  }
+}
+
+.temp {
+  height: 35em;
+}
